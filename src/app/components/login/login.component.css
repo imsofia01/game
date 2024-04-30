@@ -46,15 +46,15 @@ h2 {
 .login h2{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #383636;
-    padding: 10px 0px;
+    padding: 3px 0px;
     font-size: 25px;
 }
 
 .login p{
     font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
     color: #828282;
-    font-size: 15px;
-    line-height: 0;
+    font-size: 13px;
+    line-height: 1;
     font-weight:100;
 }
 
@@ -93,7 +93,7 @@ a {
 
 .form-group {
     display: flex;
-    padding: 13px 0px;
+    padding: 16px 0px;
     flex-wrap: wrap;
     flex-direction: row;
     align-content: flex-end;
@@ -102,24 +102,24 @@ a {
 }
 
 #username{
-  float: left;
+  
     border-radius: 13px;
     height: 40px;
     width: 100%;
-    position: relative;
-    color: #383636;
+   
+    padding: 4px 17px;
+    border-color: #000000;
     
 
 }
 
 #password {
-    display: flex;
     border-radius: 13px;
     height: 40px;
     width: 100%;
-    position: relative;
     border-color: #383636;
     border-width: 2px;
+    padding: 4px 17px;
 }
 
 .btnlog{
@@ -138,12 +138,31 @@ a {
     background-color: #506EEC;
 }
 
+.user {
+  background-color: rgb(255, 255, 255);
+  padding: 11px 12px;
+  position: absolute;
+  margin: -19px;
+  margin-left: 16px;
+
+}
+
+.pass{
+  background-color: rgb(255, 255, 255);
+  padding: 11px 12px;
+  position: absolute;
+  margin: -19px;
+  margin-left: 16px;
+
+}
+
 
 label {
     font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
-    font-size: 15px;
+    font-size: 14px;
     color: #828282;
-  
+    margin-right: 98px;
+    margin-top: 2px;
 }
 
 
