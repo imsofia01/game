@@ -49,6 +49,67 @@ body{
     display: flex; 
 }
 
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .login-container {
+    max-width: 60%;
+    padding: 0;
+    margin-right: 1px;
+  }
+
+  .box-2 {
+    width: 100%; /* Make the login form take full width */
+}
+  .box-1 {
+  display: none; /* Hide box-1 on smaller screens */
+
+}
+
+.icons{
+  display: flex;
+  position: absolute;
+}
+
+.social{
+ margin-left: -23px;
+ gap: 15px;
+}
+
+}
+
+@media (max-width: 568px) {
+  .login-container {
+    max-width: 75%;
+    padding: 0;
+    margin-right: 1px;
+  }
+
+  .box-1 {
+      display: none; /* Hide box-1 on smaller screens */
+
+  }
+
+  .box-2 {
+      width: 90%; /* Make the login form take full width */
+      
+  }
+
+  .icons{
+    display: flex;
+    position: absolute;
+  }
+
+  .social{
+   margin-left: -39px;
+   gap: 15px;
+  }
+}
+
+
+
+
+
 #Firstname{
   border-radius: 13px;
   height: 35px;
